@@ -139,5 +139,10 @@
 
     .play {
         font-size: 14px;
+        margin-top: 15px;
+    }
+
+    .movie-info {
+        flex-wrap: wrap;
     }
 }
