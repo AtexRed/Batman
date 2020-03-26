@@ -1,0 +1,143 @@
+@media(max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .full-content {
+        width: 90%;
+    }
+
+    .tabs-link {
+        font-size: 16px;
+        padding: 0 15px;
+    }
+}
+
+@media(max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .full-content {
+        width: 70%;
+    }
+
+    .tabs {
+        width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        line-height: 2;
+    }
+
+    .tabs-link {
+        padding: 0 30px;
+    }
+
+    .tabs-link:nth-child(5) {
+        padding-left: 0;
+    }
+
+    .full-content {
+        flex-wrap: wrap;
+    }
+
+    .tabs-content {
+        margin-right: 0;
+        margin-top: 15px;
+    }
+
+    .text {
+        font-size: 14px;
+        width: 480px;
+    }
+
+    .actors-list-link {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .more {
+        display: none;
+    }
+
+    .tabs-link {
+        padding: 0 20px;
+        flex-basis: 33%;
+        padding: 0;
+    }
+
+    .tabs-link:nth-child(3) {
+        padding-left: 0;
+    }
+
+    .tabs-link:nth-child(7) {
+        padding-left: 0;
+    }
+
+    .text {
+        width: 300px;
+    }
+}
+
+@media(max-width: 578px) {
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .header {
+        flex-wrap: wrap;
+    }
+
+    .search {
+        flex-basis: 100%;
+        order: 3;
+        margin-top: 5%;
+    }
+
+    .content {
+        flex-wrap: wrap;
+    }
+
+    .actors-list {
+        display: none;
+    }
+
+    .actors-title {
+        display: none;
+    }
+
+    .content-button {
+        margin-top: 190px;
+        margin-bottom: 8%;
+    }
+
+    .text {
+        width: 250px;
+    }
+
+    .tag {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        margin-right: 17px;
+        width: 50px;
+        height: 25px;
+        padding: 0;
+    }
+
+    .country {
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+    .play {
+        font-size: 14px;
+    }
+}
