@@ -86,8 +86,7 @@
 
 @media(max-width: 578px) {
     .container {
-        width: 90%;
-        margin: 0 auto;
+        width: 9пше 0%;
     }
 
     .header {
@@ -144,5 +143,13 @@
 
     .movie-info {
         flex-wrap: wrap;
+    }
+
+    .tabs-content {
+        width: 300px;
+    }
+
+    .full-info {
+        width: 280px;
     }
 }
