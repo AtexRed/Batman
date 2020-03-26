@@ -71,7 +71,7 @@
 
     .tabs-link {
         padding: 0 20px;
-        flex-basis: 34%;
+        flex-basis: 33%;
         padding: 0;
     }
 
@@ -95,6 +95,16 @@
 
     .header {
         flex-wrap: wrap;
+    }
+
+    .tabs {
+        width: 300px;
+    }
+
+    .tabs-link {
+        padding: 0 20px;
+        flex-basis: 33%;
+        padding: 0;
     }
 
     .search {
