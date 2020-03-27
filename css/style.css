@@ -444,3 +444,36 @@ input[type="search"]::-webkit-search-results-decoration {
 .subscribe-button:hover {
     filter: brightness(1.1);
 }
+
+.actors-list-item .text {
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    color: #000000;
+    margin-top: 5px;
+}
+
+.actors-list-item {
+    margin-top: 6%;
+}
+
+.actors-list-item:first-child {
+    margin-top: 0;
+}
+
+.actors-list-item:nth-child(2) {
+    margin-top: 0;
+}
+
+.actors_name {
+    font-weight: 900;
+    font-size: 16px;
+    color: #000000;
+}
+
+.actors-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
