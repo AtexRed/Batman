@@ -51,6 +51,10 @@
         width: 480px;
     }
 
+    .subscribe {
+        margin-left: 11%;
+    }
+
     .actors-list-link {
         font-size: 14px;
     }
@@ -81,6 +85,10 @@
 
     .tabs-link:nth-child(7) {
         padding-left: 0;
+    }
+
+    .subscribe {
+        margin-left: -10%;
     }
 
     .text {
@@ -160,12 +168,23 @@
         align-items: center;
     }
 
+    .short-info {
+        margin-right: 0;
+        margin: 0 18%;
+    }
+
     .tabs-content {
         width: 300px;
     }
 
     .full-info {
         width: 300px;
+        margin: 0 auto;
+    }
+
+    .subscribe {
+        display: block;
+        margin-left: 10%;
     }
 }
 
