@@ -324,6 +324,7 @@ input[type="search"]::-webkit-search-results-decoration {
 .tabs-content {
     margin-right: 9%;
     width: 75%;
+    display: none;
 }
 
 .tabs-link {
@@ -359,6 +360,10 @@ input[type="search"]::-webkit-search-results-decoration {
 .tabs-content {
     margin-top: 3%;
     width: 514px;
+}
+
+.visible {
+    display: block;
 }
 
 .text {
