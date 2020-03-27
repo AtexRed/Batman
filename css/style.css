@@ -394,6 +394,10 @@ input[type="search"]::-webkit-search-results-decoration {
     margin-top: 48px;
 }
 
+.banner:hover {
+    border: solid 2px #FF8F27;
+}
+
 .subscribe-title {
     font-weight: 900;
     font-size: 16px;
