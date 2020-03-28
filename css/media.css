@@ -142,10 +142,6 @@
         width:  90%;
     }
 
-    .short-info {
-        max-height: 300px;
-    }
-
     .header {
         flex-wrap: wrap;
     }
@@ -176,6 +172,7 @@
 
     .tabs-content {
         margin-left: 10px;
+        min-height: 280px;
     }
 
     .tabs {
@@ -235,7 +232,8 @@
 
     .short-info {
         margin-right: 0;
-       margin: 0 auto;
+        margin: 0 auto;
+        height: 300px;
     }
 
     .content {
@@ -256,13 +254,4 @@
         display: block;
         margin-left: 0;
     }
-
-  /*   .actors-info {
-        justify-content: center;
-    } */
-
-/*    .actors-list-item:nth-child(2) {
-        margin-top: 6%;
-    } */
-
 }
