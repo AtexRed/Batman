@@ -138,6 +138,10 @@
 }
 
 @media(max-width: 578px) {
+    body {
+        background-size: auto;
+    }
+    
     .container {
         width:  90%;
     }
