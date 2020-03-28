@@ -142,6 +142,10 @@
         width:  90%;
     }
 
+    .short-info {
+        max-height: 300px;
+    }
+
     .header {
         flex-wrap: wrap;
     }
