@@ -138,11 +138,6 @@
 }
 
 @media(max-width: 578px) {
-    
-    * {
-        box-sizing: auto;
-    }
-
     .container {
         width:  90%;
     }
