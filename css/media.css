@@ -11,6 +11,15 @@
         font-size: 16px;
         padding: 0 15px;
     }
+
+    .actors-list-item:nth-child(3) {
+        margin-top: 20px;
+        margin-right: 5px;
+    }
+
+    .actors-list-item:nth-child(4) {
+        margin-top: 20px;
+    }
 }
 
 @media(max-width: 992px) {
@@ -53,10 +62,25 @@
 
     .subscribe {
         margin-left: 11%;
+        display: none;
     }
 
     .actors-list-link {
         font-size: 14px;
+    }
+
+    .actors-list-item:nth-child(3) {
+        margin-top: 20px;
+    }
+
+    .actors-list-item:nth-child(4) {
+        margin-top: 20px;
+    }
+}
+
+@media(max-width: 968px) {
+    .subscribe {
+        display: none;
     }
 }
 
@@ -94,6 +118,23 @@
     .text {
         width: 300px;
     }
+
+    .actors-info {
+        max-width: 200px;
+    }
+
+    .actors-list-item {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .actors-list-item:nth-child(3) {
+        margin-top: 20px;
+    }
+
+    .actors-list-item:nth-child(2) {
+        margin-top: 20px;
+    }
 }
 
 @media(max-width: 578px) {
@@ -129,12 +170,24 @@
         display: none;
     }
 
+    .tabs-content {
+        margin-left: 10px;
+    }
+
+    .tabs {
+        margin-left: 3px;
+    }
+
+    .subscribe-title, .subscribe-form {
+        margin-left: 10px;
+    }
+
     .actors-title {
         display: none;
     }
 
     .content-button {
-        margin-top: 190px;
+        margin-top: 240px;
         margin-bottom: 8%;
     }
 
@@ -155,12 +208,20 @@
 
     .country {
         font-size: 14px;
-        margin-right: 200px;
+        margin-right: 40%;
     }
 
     .play {
         font-size: 14px;
         margin-top: 15px;
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .subscribe-title {
+        font-size: 14px;
     }
 
     .movie-info {
@@ -170,7 +231,12 @@
 
     .short-info {
         margin-right: 0;
-        margin: 0 18%;
+       margin: 0 auto;
+    }
+
+    .content {
+        padding: 0;
+        padding-bottom: 40px;
     }
 
     .tabs-content {
@@ -184,21 +250,15 @@
 
     .subscribe {
         display: block;
-        margin-left: 10%;
+        margin-left: 0;
     }
 
-    .actors-info {
+  /*   .actors-info {
         justify-content: center;
-    }
+    } */
 
-    .actors-list-item:nth-child(2) {
+/*    .actors-list-item:nth-child(2) {
         margin-top: 6%;
-    }
+    } */
 
-}
-
-@media(max-width: 490px) {
-    .country {
-        margin-right: 100px;
-    }
 }

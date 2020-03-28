@@ -274,7 +274,7 @@ input[type="search"]::-webkit-search-results-decoration {
 .poster {
     display: block;
     position: absolute;
-    top: -4%;
+    top: -30px;
 }
 
 .content-button {
@@ -282,7 +282,7 @@ input[type="search"]::-webkit-search-results-decoration {
     height: 36px;
     padding: 10px 44px;
     background: #FF8F27;
-    margin-top: 245px;
+    margin-top: 220px;
     cursor: pointer;
     border: none;
 }
@@ -322,7 +322,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .tabs-content {
-    margin-right: 9%;
+    margin-right: 10%;
     width: 75%;
     display: none;
 }
@@ -456,6 +456,8 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .actors-list-item {
     margin-top: 6%;
+    margin-right: 1%;
+    max-width: 180px;
 }
 
 .actors-list-item:first-child {
@@ -464,6 +466,15 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .actors-list-item:nth-child(2) {
     margin-top: 0;
+}
+
+.actors-list-item:nth-child(3) {
+    margin-top: 0;
+    margin-right: 0;
+}
+
+.actors-list-item:nth-child(6) {
+    margin-right: 0;
 }
 
 .actors_name {
@@ -475,5 +486,9 @@ input[type="search"]::-webkit-search-results-decoration {
 .actors-info {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    width: 115%;
+}
+
+.text span {
+    font-weight: 900;
 }
